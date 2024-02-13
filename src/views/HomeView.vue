@@ -4,5 +4,9 @@
 <template>
   <main>
 
+    <body>
+
+    </body>
+
   </main>
 </template>
