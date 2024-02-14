@@ -1,32 +1,3 @@
-<!-- <template>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Frida </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CV</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ta bort?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Ta bort?</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-</template> -->
 
 
 <!---NAVBAR-->
@@ -46,7 +17,6 @@
 nav {
   grid-area: nav;
   position: sticky;
-
   width: 100%;
   background-image: linear-gradient(#A0658D, rgba(0, 0, 0, 0));
   font-size: 2em;
@@ -77,35 +47,3 @@ li a:hover {
 
 /*--------------------------*/
 </style>
-
-<!--
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-
-
-/* Style "loggan" */
-.navbar-brand {
-  color: white;
-  font-weight: bold;
-
-}
-
-/* bakgrund navbar */
-.container-fluid {
-  background-color: #D2959C;
-}
-
-.navbar.navbar-expand-lg.bg-body-tertiary {
-  background-color: #D2959C;
-}
-
-
-/* Stilar för navbar-toggler, sätter bakgrundsfärg till vit */
-.navbar-toggler {
-  background-color: white;
-}
-</style> -->

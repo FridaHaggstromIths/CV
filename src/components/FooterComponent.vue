@@ -28,7 +28,9 @@ footer {
   color: #ffffff;
   list-style: none;
   margin-top: 3%;
-  margin-left: 10vh;
+  margin-left: 20vw;
+  display: inline;
+
 
 }
 
