@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="profilPicture">
-      <h1>Hej</h1>
+      
     </div>
   </main>
 </template>

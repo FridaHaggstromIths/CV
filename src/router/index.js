@@ -10,8 +10,9 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: "/about/:name",
-      name: "about",
+      path: "/CvView",
+      name: "CvView",
+      component: () => import("..views/CvView.vue")
     }
   ]
 })
