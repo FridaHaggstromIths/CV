@@ -1,24 +1,31 @@
 
 
-<!---NAVBAR-->
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
+
 <template>
   <header>
     <nav>
       <ul class="ul-navlink">
-        <li class="navlink"><a href="#">CV</a></li>
-        <li class="navlink"><a href="#">Contact</a></li>
+        <RouterLink class="navlink" to="/">Home</RouterLink>
+        <RouterLink class="navlink" to="/">CV</RouterLink>
       </ul>
     </nav>
   </header>
+  <RouterView />
 </template>
 
+
+
 <style scoped>
-/* NAV M. LÄNKAR*/
 nav {
   grid-area: nav;
   position: sticky;
   width: 100%;
-  background-image: linear-gradient(#A0658D, rgba(0, 0, 0, 0));
+  background-color: #A0658D;
+  /* background-image: linear-gradient(#A0658D, rgba(0, 0, 0, 0)); */
   font-size: 2em;
   margin: 0%;
   padding-bottom: 5%;
@@ -32,18 +39,16 @@ nav {
   top: 5%
 }
 
-a,
+
 .navlink {
   text-decoration: none;
   display: inline;
   color: #ffffff;
   list-style-type: none;
-  margin: 1vh;
+  margin: 5vh;
 }
 
-li a:hover {
-  color: #000000;
+.navlink:hover {
+  color: #3e0c3f;
 }
-
-/*--------------------------*/
 </style>

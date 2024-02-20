@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="profilPicture">
-      
+
     </div>
   </main>
 </template>
@@ -10,6 +10,6 @@
 div {
   grid-area: item1;
   width: 100%;
-  height: 80vh;
+  height: 82vh;
 }
 </style>
