@@ -1,12 +1,7 @@
 <script setup>
+import HeroGrid from "../components/HeroGrid.vue"
 </script>
 
 <template>
-  <main>
-
-    <body>
-
-    </body>
-
-  </main>
+  <HeroGrid />
 </template>

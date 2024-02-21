@@ -1,16 +1,19 @@
 {
   "Utbildning": [
     {
+      "id":"1",
       "Titel": "IT-Högskolan",
       "Program": "YH Frontendutvecklare",
       "År": "2023-08 - 2025-06"
     },
     {
+      "id":"2",
       "Titel": "Programmering 1 - Python",
       "Program": "Komvux Jensen",
       "År": "2023-05 - 2023-06"
     },
     {
+      "id":"3",
       "Titel": "Gymnasium",
       "Program": "Specialutformat program musikproduktion och ljudteknik",
       "År": "2008-08 - 2011-05"
@@ -18,21 +21,25 @@
   ],
   "Kompetenser": [
     {
+      "id":"4",
       "Titel": "Html, Css, Native Javascript, Vue, React, Ux/Ui, Figma, Git, Github, Node.js, Fullstackutveckling, Typescript, SQL, MongoDB, Agilutveckling inkl. SCRUM och Kanban"
     }
   ],
   "Arbete": [
     {
+      "id":"5",
       "Titel": "Salesadviser",
       "Arbetsgivare": "Hunkemöller",
       "År": "2017-04 - Pågående (Tjänstledig p.g.a. studier)"
     },
     {
+      "id":"6",
       "Titel": "Salesadviser",
       "Arbetsgivare": "Pinkroom",
       "År": "2015-07 - 2017-03"
     },
     {
+      "id":"7",
       "Titel": "Inköpare, order, faktura, och lager",
       "Arbetsgivare": "Matronic i Sverige AB",
       "År": "2012-02 - 2014-12"
