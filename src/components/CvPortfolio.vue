@@ -1,7 +1,7 @@
- import CvPortfolio from 
- 
- 
- 
+
+
+
+
  <!-- rendera ut från fetch? -->
 
 <template>
@@ -9,8 +9,6 @@
     <h1>
       {{ CvPortfolio }}
     </h1>
-    
- 
   </div>
 </template>
 
@@ -20,8 +18,8 @@
         // Data-funktion som returnerar initiala data för komponenten
         data() {
             return {
-                cv: []     // En tom lista 
-                
+                cv: []     // En tom lista
+
             }
         },
         name: 'CvView',  // Namn på komponenten
@@ -40,3 +38,6 @@
         }
       }
 </script>
+
+<style>
+</style>

@@ -6,10 +6,7 @@ import PictureCompanent from './components/PictureCompanent.vue';
 
 <template>
   <NavComponent />
-
   <PictureCompanent />
-
-
   <FooterComponent />
 </template>
 
