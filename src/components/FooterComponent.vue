@@ -16,6 +16,9 @@
 <style scoped>
 footer {
   display: flex;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
   grid-area: footer;
   background-color: #A0658D;
   padding: 0;

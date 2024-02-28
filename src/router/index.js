@@ -12,8 +12,8 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: "/:id",
-      name: "CvView",
+      path: "/CvView",
+      name: "CV",
       component: CvView
     }
   ]

@@ -2,6 +2,8 @@
 
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+
+
 </script>
 
 
@@ -10,7 +12,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <nav>
       <ul class="ul-navlink">
         <RouterLink class="navlink" to="/">Home</RouterLink>
-        <RouterLink class="navlink" to="/">CV</RouterLink>
+        <RouterLink class="navlink" to="/CvView">CV</RouterLink>
       </ul>
     </nav>
   </header>

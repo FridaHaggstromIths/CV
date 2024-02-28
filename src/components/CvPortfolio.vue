@@ -1,43 +1,22 @@
-
-
-
-
- <!-- rendera ut från fetch? -->
-
+<!-- CvPortfolio.vue -->
 <template>
   <div>
-    <h1>
-      {{ CvPortfolio }}
-    </h1>
+    <h1>Cv Portfolio </h1>
+    <div v-for="utbildning in cv" :key="utbildning.id">
+      <p>{{ utbildning.Titel }}</p>
+      <p>{{ utbildning.Program }}</p>
+      <p>{{ utbildning.År }}</p>
+    </div>
   </div>
 </template>
 
 <script>
-
-    export default {
-        // Data-funktion som returnerar initiala data för komponenten
-        data() {
-            return {
-                cv: []     // En tom lista
-
-            }
-        },
-        name: 'CvView',  // Namn på komponenten
-        components: {'Cv-Portfolio': CvPortfolio },  // Användning av komponenten
-        created() {
-            // Efter att komponenten har monterats, hämta data från spa json-filen
-            this.fetchData()
-        },
-        methods: {
-            // En metod för att hämta spa-data från en json-fil asynkront
-            async fetchData() {
-                const res = await fetch('Kompetenser.json')
-                const val = await res.json()
-                this.cv = val  // Sätter data från filen till 'spas'-listan
-            }
-        }
-      }
+export default {
+  props: {
+    cv: {
+      required: true,
+      type: Array
+    }
+  }
+}
 </script>
-
-<style>
-</style>

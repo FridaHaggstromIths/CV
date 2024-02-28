@@ -1,15 +1,19 @@
 <template>
   <main>
     <div class="profilPicture">
+      <img
+          src="../assets/img/billy-huynh-W8KTS-mhFUE-unsplash.jpg"
+
+      />
 
     </div>
   </main>
 </template>
 
 <style scoped>
-div {
+.profilPicture{
   grid-area: item1;
   width: 100%;
-  height: 82vh;
+  height: 20vh;
 }
 </style>
