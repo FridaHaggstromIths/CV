@@ -24,7 +24,8 @@ footer {
   padding: 0;
   color: white;
   font-size: 1em;
-  /* opacity: 80%; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
   padding-bottom: 0%;
 }
 

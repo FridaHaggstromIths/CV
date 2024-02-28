@@ -28,17 +28,19 @@
     .centered {
         position: absolute; /* Absolut positionering relativt till första föräldern med relativ eller absolut positionering */
         top: 50%;           /* Centrerar vertikalt till 50% av förälderns höjd */
-        left: 50%;          /* Centrerar horisontellt till 50% av förälderns bredd */
+        left: 60%;          /* Centrerar horisontellt till 50% av förälderns bredd */
         transform: translate(-50%, -50%); /* Justerar positionen så att centrum av elementet hamnar exakt i mitten */
-        color: white;       /* Sätter textfärg till vit */
+        color: #3d2636;       /* Sätter textfärg till vit */
+        font-size:large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .Profile img{
-      width: 500px;
-      height: 500px;
+      width: 400px;
+      height: 400px;
       border-radius: 50%;
       grid-area: item1;
-      margin-left: 5%;
-      margin-top: 2%;
+      margin-left: 20vw;
+      margin-top: 12vh;
 
 
 }
