@@ -20,8 +20,10 @@
       <p>{{ utbildning.Titel }}</p>
       <p>{{ utbildning.Program }}</p>
       <p>{{ utbildning.År }}</p>
+
     </div>
   </div> -->
+
 </template>
 
 <script>

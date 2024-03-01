@@ -77,7 +77,7 @@ import CvPortfolio from '../components/CvPortfolio.vue';
         color: #3d2636;
         font-size:large;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        height: 100%;
+        height: 80vh;
     }
 
 </style>
