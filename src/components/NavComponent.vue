@@ -1,9 +1,5 @@
-
-
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-
-
 </script>
 
 
@@ -18,7 +14,6 @@ import { RouterLink, RouterView } from 'vue-router'
   </header>
   <RouterView />
 </template>
-
 
 
 <style scoped>
@@ -41,7 +36,6 @@ nav {
   margin-left: 70vw;
   top: 5%
 }
-
 
 .navlink {
   text-decoration: none;

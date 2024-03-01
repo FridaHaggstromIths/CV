@@ -1,11 +1,8 @@
 <script setup>
-/* import HeroGrid from "../components/HeroGrid.vue" */
-/* import PictureComponent from "../components/PictureCompanent.vue" */
 </script>
 
+
 <template>
-
-
   <div class="centered">
           <h1>Frida Häggström</h1>
           <h3>Frontend developer - student</h3>
@@ -15,9 +12,6 @@
     <img src="../assets/img/billy-huynh-W8KTS-mhFUE-unsplash.jpg" alt="Profilpicture">
 
   </div>
-
-  <!-- <HeroGrid /> -->
-  <!-- <PictureComponent /> -->
 </template>
 
 
@@ -41,7 +35,12 @@
       grid-area: item1;
       margin-left: 20vw;
       margin-top: 12vh;
+    }
 
+/* h1{
+  background-image: url(img/annie-spratt-nWiS2rgtVts-unsplash.jpg);
+  background-size: cover;
+  background-clip: text;
 
-}
+} */
 </style>

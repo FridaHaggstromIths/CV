@@ -22,19 +22,19 @@
   "Kompetenser": [
     {
       "id":"4",
-      "Titel": "Html, Css, Native Javascript, Vue, React, Ux/Ui, Figma, Git, Github, Node.js, Fullstackutveckling, Typescript, SQL, MongoDB, Agilutveckling inkl. SCRUM och Kanban"
+      "Titel": "Html, CSS, Native Javascript, Vue, React, Ux/Ui, Figma, Git, Github, Node.js, Fullstackutveckling, Typescript, SQL, MongoDB, Agilutveckling inkl. SCRUM och Kanban"
     }
   ],
   "Arbete": [
     {
       "id":"5",
-      "Titel": "Salesadviser",
+      "Titel": "Salesadvisor",
       "Arbetsgivare": "Hunkemöller",
       "År": "2017-04 - Pågående (Tjänstledig p.g.a. studier)"
     },
     {
       "id":"6",
-      "Titel": "Salesadviser",
+      "Titel": "Salesadvisor",
       "Arbetsgivare": "Pinkroom",
       "År": "2015-07 - 2017-03"
     },

@@ -2,7 +2,6 @@
   <footer>
     <div>
       <ul>
-
         <a class="footerlink" href="https://www.linkedin.com/in/frida-h%C3%A4ggstr%C3%B6m-a7a149105/">&copy; Frida
           Häggström LinkedIn Profile
         </a>
@@ -10,7 +9,6 @@
     </div>
   </footer>
 </template>
-
 
 
 <style scoped>

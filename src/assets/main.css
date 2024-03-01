@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  min-width: 100vh;
+  min-width: 100%;
   box-sizing: border-box;
   overflow-x: hidden;
   background-color: #A0658D;
