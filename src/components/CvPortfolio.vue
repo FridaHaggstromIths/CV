@@ -27,14 +27,14 @@
 </template>
 
 <script>
-export default {
+/* export default {
   props: {
     cv: {
       required: true,
       type: Array
     }
   }
-}
+} */
 </script>
 
 <style scoped>

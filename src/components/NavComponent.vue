@@ -21,12 +21,9 @@ nav {
   grid-area: nav;
   position: sticky;
   width: 100%;
-  height: 0.8rem;
+  height: 10vh;
   background-color: #A0658D;
-  /* background-image: linear-gradient(#A0658D, rgba(0, 0, 0, 0)); */
   font-size: 2em;
-  margin: 0%;
-  padding-bottom: 5%;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
