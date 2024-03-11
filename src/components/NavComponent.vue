@@ -33,25 +33,15 @@ nav {
 .ul-navlink {
   display: flex;
   justify-items: end;
-  /* justify-content:space-around; */
-  /* align-items:end; */
-  /* justify-items: end; */
-  /* position: absolute; */
-  /* bottom: 2%; */
-  /* margin-left: 70vw; */
-  /* top: 5% */
 }
 
 .navlink {
   display: flex;
-  margin-left: 3vh;
-  margin-right: 3vh;
+  margin-left: 2vh;
+  margin-right: 10vh;
   text-decoration: none;
-  display: inline;
   color: #ffffff;
   list-style-type: none;
-  /* margin: 5vh; */
-
 }
 
 .navlink:hover {

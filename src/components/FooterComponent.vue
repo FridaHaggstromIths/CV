@@ -14,7 +14,6 @@
 <style>
 footer {
   display: grid;
-  /* grid-area: footer; */
   height: 8vh;
   width: 100%;
   background-color: #A0658D;
@@ -33,7 +32,6 @@ footer {
   align-items:center;
   text-decoration: none;
   margin-top:2vh;
-
 }
 
 .footerlink:hover {

@@ -19,10 +19,9 @@
       "År": "2008-08 - 2011-05"
     }
   ],
-
   "Kompetenser": [
     {
-      "id":"4",
+      "id":"Kompetenser",
       "Titel": "Html, CSS, Native Javascript, Vue, React, Ux/Ui, Figma, Git, Github, Node.js, Fullstackutveckling, Typescript, SQL, MongoDB, Agilutveckling inkl. SCRUM och Kanban"
     }
   ],
@@ -31,7 +30,7 @@
       "id":"5",
       "Titel": "Salesadvisor",
       "Arbetsgivare": "Hunkemöller",
-      "År": "2017-04 - Pågående (Tjänstledig p.g.a. studier)"
+      "År": "2017-04 - Pågående"
     },
     {
       "id":"6",
