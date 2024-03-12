@@ -7,12 +7,12 @@
       <img src="../assets/img/billy-huynh-W8KTS-mhFUE-unsplash.jpg" alt="Profilpicture">
     </div>
     <div class="Presentation">
+    <div >
       <h1>Frida Häggström</h1>
-    </div>
-    <div class="education">
       <h3>Frontend developer - student</h3>
     </div>
-  </div>
+    </div>
+    </div>
 </template>
 
 <style>
@@ -20,7 +20,7 @@
 .container {
   display: grid;
   height: 100vh;
-  grid-template-columns: 0.5fr 0.2fr;
+  grid-template-columns: 0.5fr 0.5fr;
   grid-template-rows:
 
     /* item1 */
@@ -45,31 +45,13 @@
 .Presentation {
   display: grid;
   grid-area: item2;
-  justify-content: center;
-  justify-items: center;
+  justify-content:start;
   align-items:center;
   color: #3d2636;
   font-size: large;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.education{
-  display: grid;
-  grid-area: item2;
-  justify-content:center;
-  justify-items: center;
-  align-items:center;
-  margin-top: 15vh;
-  color: #3d2636;
-  font-size: large;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-/* .Presentation h1{
-  margin-bottom: -30vh;
-} */
-/* .Presentation h3{
-  margin-top: -30vh;
-} */
 
 .Profile img {
   width: 350px;
@@ -81,11 +63,25 @@
 @media (max-width:500px) {
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.6fr 0.2fr ;
+    grid-template-rows: 0.6fr 0.6fr ;
     grid-template-areas:
       "item1"
       "item2";
+      display: inline;
+  }
+
+  .Profile img{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 300px;
+    width: 300px;
+  }
+
+  h1,h3{
+    margin-left:20%;
+    margin-bottom: 2vh;
+
   }
 }
-/*--------------------------*/
+
 </style>

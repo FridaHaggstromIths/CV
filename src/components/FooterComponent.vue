@@ -16,6 +16,7 @@ footer {
   display: grid;
   height: 8vh;
   width: 100%;
+  bottom:0;
   background-color: #A0658D;
   color: white;
   font-size: 1em;

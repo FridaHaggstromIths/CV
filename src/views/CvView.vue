@@ -97,6 +97,7 @@
   font-size: large;
   margin: 2rem;
   border: solid 0.2em #A0658D;
+  border-radius: 8px;
   background-color: #F0F0F0;
   color: #3d2636;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -115,6 +116,7 @@
   font-size: large;
   margin: 2rem;
   border: solid 0.2em #A0658D;
+  border-radius: 8px;
   background-color: #F0F0F0;
   color: #3d2636;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -133,6 +135,7 @@
   font-size: large;
   margin: 2rem;
   border: solid 0.2em #A0658D;
+  border-radius: 8px;
   background-color: #F0F0F0;
   color: #3d2636;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -145,48 +148,25 @@
 
 p{
   display: grid;
-  /* justify-items: start; */
   justify-content: start;
-  /* justify-items: self-start; */
   width: 30vh;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h5{
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
 
-/* @media (min-width: 900px)
-
-{
-  .wrapping{
+ @media (max-width: 980px) /* and (min-width: 980px) */ {
+  .Wrapping{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
     "item3 item4 item5";
-  }
-}
- */
-@media (max-width:500px) {
-
-  .Wrapping {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.5fr 0.2fr;
-    grid-template-areas:
-      "item3 item4 item5";
-
     display: inline;
-
-    /* .item3{
-      margin: 1rem;
-    }
-
-    .item4{
-      margin: 1rem;
-    }
-
-    .item5{
-      margin: 1rem;
-    } */
-
   }
 
 }
+
 </style>
