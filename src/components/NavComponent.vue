@@ -29,7 +29,6 @@ nav {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-
 .ul-navlink {
   display: flex;
   justify-items: end;
